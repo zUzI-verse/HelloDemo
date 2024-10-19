@@ -1,1 +1,10 @@
 /* styling code goes here */
+
+p{
+    margin-left: 3em;
+}
+p::before {
+    content: ' ';
+    background-color: rgb(42, 52, 192);
+    margin-left: 5em;
+}
